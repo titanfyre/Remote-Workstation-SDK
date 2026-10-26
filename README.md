@@ -12,8 +12,14 @@ control require a separate host opt-in and an explicit viewer opt-in.
 The initial edition targets **Windows 10 version 2004/build 19041+ or Windows 11, x64 only**. Its bounded LAN implementation
 uses Windows desktop capture, lossless frame compression and Schannel TLS.
 The separate Titan SDK Runtime provides the per-boot demo and signed full-use
-activation. Installable releases require its returned Microsoft-signed package;
+activation. The complete release includes that Microsoft-signed package;
 source builds without that payload refuse installation.
+
+The release ZIP contains the application, CLI, example, both single-file setup
+executables and matching opaque Microsoft-signed packages under `Driver/`.
+Microsoft signing covers the driver packages; the user-mode EXEs are separate.
+The supported scope and executed qualification are documented in
+[validation](docs/VALIDATION.md).
 
 ## Install and connect
 
@@ -147,8 +153,8 @@ Use Visual Studio 2022 Desktop C++, CMake and a Windows SDK on Windows x64.
 ```powershell
 .\Build.ps1
 .\Build.ps1 -Asan
-# Opaque signed runtime files, independently supplied after signing:
-.\Build.ps1 -DriverPackageDirectory C:\Signed\TitanSdkRuntime
+# Rebuild setup with the opaque signed runtime included in the release ZIP:
+.\Build.ps1 -DriverPackageDirectory .\Driver\TitanSdkRuntime
 ```
 
 Outputs are in `obj/Build/bin/Release`. Tests use synthetic frame data and owned
