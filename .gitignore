@@ -1,0 +1,8 @@
+obj/
+bin/
+.vs/
+*.user
+*.pdb
+*.sys
+*.cat
+*.cab

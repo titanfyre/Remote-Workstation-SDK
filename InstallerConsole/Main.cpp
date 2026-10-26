@@ -1,0 +1,3 @@
+#include "../InstallerUI/Setup.h"
+#include <iostream>
+int wmain(int argc,wchar_t** argv){if(argc!=2||(_wcsicmp(argv[1],L"/install")&&_wcsicmp(argv[1],L"/uninstall")&&_wcsicmp(argv[1],L"/status"))){std::wcout<<L"RemoteWorkstationSetupConsole.exe /install | /uninstall | /status\n";return 87;}if(!_wcsicmp(argv[1],L"/status")){std::wcout<<L"Application: "<<(AppSetup::Installed()?L"installed":L"not installed")<<L"\nRuntime: "<<(RuntimeSetup::Installed()?L"responding":L"unavailable")<<L"\n";return 0;}auto r=AppSetup::Execute(!_wcsicmp(argv[1],L"/install"));std::wcout<<r.detail<<L"\n";if(r.reboot)std::wcout<<L"Restart Windows manually to finish.\n";return static_cast<int>(r.error?r.error:r.reboot?3010:0);}
