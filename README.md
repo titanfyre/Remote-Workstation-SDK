@@ -2,6 +2,17 @@
 
 **Build an explicitly paired desktop viewer with a small C++ API.**
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Remote Workstation SDK**.
+>
+> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
+<!-- full-version-contact:end -->
+
 Remote Workstation supplies a native host/viewer application, C++ SDK, console
 tools and installer source. A host shares its primary desktop only after the
 operator starts it and gives the viewer a fresh pairing code. Keyboard and mouse
