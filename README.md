@@ -159,6 +159,10 @@ and disconnects on overflow to release held keys.
 
 ## Build
 
+Application sources are in `App/`, the C++ SDK is in `SDK/`, and examples are in
+`Examples/`. UI and console installer sources are in `Installer/UI/` and
+`Installer/Console/`.
+
 Use Visual Studio 2022 Desktop C++, CMake and a Windows SDK on Windows x64.
 
 ```powershell
