@@ -1,0 +1,202 @@
+﻿{
+    "Schema":  1,
+    "Repo":  "titanfyre/Remote-Workstation-SDK",
+    "PreparedVariant":  "New demo-only source preview; distinct from current signed release",
+    "CopiedFiles":  [
+                        {
+                            "Path":  "SDK/License.cpp",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/License.cpp",
+                            "PreparedSHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "SHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.h",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/License.h",
+                            "PreparedSHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "SHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/LicenseProtocol.h",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/RemoteWorkstation.cpp",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/RemoteWorkstation.cpp",
+                            "PreparedSHA256":  "4BC8B26DDF9872BC853550C248A803647C14FD3A0FED14B023A7E4E384A2C859",
+                            "SHA256":  "4BC8B26DDF9872BC853550C248A803647C14FD3A0FED14B023A7E4E384A2C859",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/RemoteWorkstation.h",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/RemoteWorkstation.h",
+                            "PreparedSHA256":  "C32900B2D5F0E60C09A76D897C07C6384629A87AC010E8181E17E0D328678CD1",
+                            "SHA256":  "C32900B2D5F0E60C09A76D897C07C6384629A87AC010E8181E17E0D328678CD1",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/Transport.cpp",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/Transport.cpp",
+                            "PreparedSHA256":  "E822B27D15325B341DCAF350B2964C06187B40BC3AE477B7DBBA58FEF1B61C56",
+                            "SHA256":  "E822B27D15325B341DCAF350B2964C06187B40BC3AE477B7DBBA58FEF1B61C56",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/Transport.h",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/Transport.h",
+                            "PreparedSHA256":  "9AF16040CD0F666A35FA646B08DF51B45E1FD6E173EFEF2ECAA120C278B77124",
+                            "SHA256":  "9AF16040CD0F666A35FA646B08DF51B45E1FD6E173EFEF2ECAA120C278B77124",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/DemoKernel.h",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/DemoKernel.h",
+                            "PreparedSHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "SHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/LicenseProtocol.h",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/Runtime.c",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/Runtime.c",
+                            "PreparedSHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "SHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedSHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "SHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedSHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "SHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "CMakeLists.txt",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/CMakeLists.txt",
+                            "PreparedSHA256":  "DBF93CBD38E6B92973536A2BE0F155030A1AC14AACFDFA6B258D0F0B22700997",
+                            "SHA256":  "DBF93CBD38E6B92973536A2BE0F155030A1AC14AACFDFA6B258D0F0B22700997",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "DemoAbiProbe.cpp",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/DemoAbiProbe.cpp",
+                            "PreparedSHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "SHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        }
+                    ],
+    "ProtectedCurrentReleaseFiles":  [
+                                         {
+                                             "Path":  "SDK/License.cpp",
+                                             "SHA256":  "32260E1D6735C9C1A408F9668EC6DC9243DD550C896BBA749BEBB554B95F2CFF",
+                                             "Bytes":  18005
+                                         },
+                                         {
+                                             "Path":  "SDK/License.h",
+                                             "SHA256":  "44BCC2A433F620ED0BDA807CF9C08FFD8598CC58F352FCB0F78E63666B685A70",
+                                             "Bytes":  579
+                                         },
+                                         {
+                                             "Path":  "SDK/LicenseProtocol.h",
+                                             "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                                             "Bytes":  1982
+                                         },
+                                         {
+                                             "Path":  "SDK/RemoteWorkstation.cpp",
+                                             "SHA256":  "2E07E6D04E6950DDF1C339C8DF4EDC33570D39EEA2D93A07A4DE80E0B36A465C",
+                                             "Bytes":  17379
+                                         },
+                                         {
+                                             "Path":  "SDK/RemoteWorkstation.h",
+                                             "SHA256":  "C32900B2D5F0E60C09A76D897C07C6384629A87AC010E8181E17E0D328678CD1",
+                                             "Bytes":  2411
+                                         },
+                                         {
+                                             "Path":  "SDK/Transport.cpp",
+                                             "SHA256":  "E822B27D15325B341DCAF350B2964C06187B40BC3AE477B7DBBA58FEF1B61C56",
+                                             "Bytes":  19497
+                                         },
+                                         {
+                                             "Path":  "SDK/Transport.h",
+                                             "SHA256":  "9AF16040CD0F666A35FA646B08DF51B45E1FD6E173EFEF2ECAA120C278B77124",
+                                             "Bytes":  2154
+                                         },
+                                         {
+                                             "Path":  "App/Console.cpp",
+                                             "SHA256":  "37E3366A780D4E53DF544A8E6644E94B22CD932DF8E4C39CBD1FBE1342BFDECF",
+                                             "Bytes":  1895
+                                         },
+                                         {
+                                             "Path":  "App/Main.cpp",
+                                             "SHA256":  "B37B177892C3B0B5204D5DB6DF676F3EC51D36C0ED1B3DCE09DC142770E152BA",
+                                             "Bytes":  17514
+                                         },
+                                         {
+                                             "Path":  "Installer/Console/Main.cpp",
+                                             "SHA256":  "234B7BC7AF13E1E59D52BAADBEF41E78689493DD1B476405E67F3AD35E67B0EF",
+                                             "Bytes":  700
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/LicenseProtocol.h",
+                                             "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                                             "Bytes":  1982
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/Main.cpp",
+                                             "SHA256":  "485AA2BDA5D942AB7F993259A8B035C0EBCD1626E8DBC779C3DF3FFD64E7C0E7",
+                                             "Bytes":  4376
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/RuntimeSetup.cpp",
+                                             "SHA256":  "41EFF1D64CE2E41413F6D9048D43D0F441FC27C49636A7CBE8F89AFFC7AE16AC",
+                                             "Bytes":  17732
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/RuntimeSetup.h",
+                                             "SHA256":  "B600388E307B88C48A1EE32AEB8DF17761269DC538AB6B96AD541CC10B4AE309",
+                                             "Bytes":  215
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/Setup.cpp",
+                                             "SHA256":  "776224EECA28EA12B71F58916C41A0E9845EA8E179869DD39A90E4BD65D26EBD",
+                                             "Bytes":  6689
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/Setup.h",
+                                             "SHA256":  "DAE7008D153D89804420603DFB8AC52D44E0AE1813B46057638B3DDE5C367C4C",
+                                             "Bytes":  167
+                                         },
+                                         {
+                                             "Path":  "Build.ps1",
+                                             "SHA256":  "B9CE1D64E78CB89C323E9E0CD475EC32797F4370627248E6332B3F2C75718872",
+                                             "Bytes":  1266
+                                         },
+                                         {
+                                             "Path":  "CMakeLists.txt",
+                                             "SHA256":  "79CCBC2A67449913DAAD8BA46EAFA1A4BEFC9E4308266AADE11A4FC23E319762",
+                                             "Bytes":  4273
+                                         },
+                                         {
+                                             "Path":  "LICENSE",
+                                             "SHA256":  "1089464E6037B96847870DE2C175F4AA476DD6D4D125CC9B2440C7C8351E8669",
+                                             "Bytes":  1066
+                                         }
+                                     ]
+}

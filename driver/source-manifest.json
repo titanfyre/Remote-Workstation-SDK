@@ -1,0 +1,172 @@
+{
+    "Schema":  1,
+    "Repo":  "titanfyre/Remote-Workstation-SDK",
+    "Variant":  "Distinct demo-only source preview",
+    "SourcePackageRoot":  "driver/",
+    "MatchingPreviewSdk":  "driver/SDK/",
+    "CurrentPublishedEditionReproduced":  false,
+    "Identity":  "TitanSdkDemoRuntime service and TitanSdkDemoRuntime1 device; optional product driver identities suffixed Demo",
+    "RuntimePolicy":  "3600 seconds per product per Windows boot; resident first-use deadlines; closing clients/function-driver reloads do not renew the budget; no activation acceptance implementation",
+    "Compatibility":  "Public ABI layouts/operation numbers retained; Verification returns unsupported and activation IOCTLs reject requests. Isolated identities create a separate budget domain from the current signed combined runtime.",
+    "CurrentReleaseBoundary":  "Existing top-level SDK/App/Installer and signed binaries are preserved. Current installers and signed SYS/CAT files do not install or qualify this new variant.",
+    "CopiedFiles":  [
+                        {
+                            "Path":  "SDK/License.cpp",
+                            "Bytes":  5989,
+                            "SHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/License.cpp",
+                            "PreparedSHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.h",
+                            "Bytes":  511,
+                            "SHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/License.h",
+                            "PreparedSHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/LicenseProtocol.h",
+                            "Bytes":  1982,
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/RemoteWorkstation.cpp",
+                            "Bytes":  17349,
+                            "SHA256":  "4BC8B26DDF9872BC853550C248A803647C14FD3A0FED14B023A7E4E384A2C859",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/RemoteWorkstation.cpp",
+                            "PreparedSHA256":  "4BC8B26DDF9872BC853550C248A803647C14FD3A0FED14B023A7E4E384A2C859",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/RemoteWorkstation.h",
+                            "Bytes":  2411,
+                            "SHA256":  "C32900B2D5F0E60C09A76D897C07C6384629A87AC010E8181E17E0D328678CD1",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/RemoteWorkstation.h",
+                            "PreparedSHA256":  "C32900B2D5F0E60C09A76D897C07C6384629A87AC010E8181E17E0D328678CD1",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/Transport.cpp",
+                            "Bytes":  19497,
+                            "SHA256":  "E822B27D15325B341DCAF350B2964C06187B40BC3AE477B7DBBA58FEF1B61C56",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/Transport.cpp",
+                            "PreparedSHA256":  "E822B27D15325B341DCAF350B2964C06187B40BC3AE477B7DBBA58FEF1B61C56",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/Transport.h",
+                            "Bytes":  2154,
+                            "SHA256":  "9AF16040CD0F666A35FA646B08DF51B45E1FD6E173EFEF2ECAA120C278B77124",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/SDK/Transport.h",
+                            "PreparedSHA256":  "9AF16040CD0F666A35FA646B08DF51B45E1FD6E173EFEF2ECAA120C278B77124",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/DemoKernel.h",
+                            "Bytes":  2623,
+                            "SHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/DemoKernel.h",
+                            "PreparedSHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/LicenseProtocol.h",
+                            "Bytes":  1982,
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/Runtime.c",
+                            "Bytes":  6537,
+                            "SHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/Runtime.c",
+                            "PreparedSHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.inf",
+                            "Bytes":  734,
+                            "SHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedSHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "Bytes":  2455,
+                            "SHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/driver/Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedSHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "CMakeLists.txt",
+                            "Bytes":  1066,
+                            "SHA256":  "DBF93CBD38E6B92973536A2BE0F155030A1AC14AACFDFA6B258D0F0B22700997",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/CMakeLists.txt",
+                            "PreparedSHA256":  "DBF93CBD38E6B92973536A2BE0F155030A1AC14AACFDFA6B258D0F0B22700997",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "DemoAbiProbe.cpp",
+                            "Bytes":  576,
+                            "SHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "PreparedProposalPath":  "Remote-Workstation-SDK/DemoAbiProbe.cpp",
+                            "PreparedSHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        }
+                    ],
+    "GeneratedFiles":  [
+                           {
+                               "Path":  "Build.ps1",
+                               "SHA256":  "65356AB817176F09EDBC6FD69DDA96D2EDAEA0DBB8D8C13FC7F407EC89987434",
+                               "Bytes":  4261,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "README.md",
+                               "SHA256":  "6B6194EE099C30B9E27D0FEFADC196C4AF28CDAAAF2AC9274381A825D94EA078",
+                               "Bytes":  3985,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "source-boundaries.json",
+                               "SHA256":  "6BCA626EE0AF1DB97FC8BD2FECC61B5C45CB52634FF12856E9F23E7CEBC7B78A",
+                               "Bytes":  14391,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "validation-report.json",
+                               "SHA256":  "A9803354A8D9676DCA62A9AFACBD16E50E7D14E9EC1F52A6CD28C777D65F1501",
+                               "Bytes":  773,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           }
+                       ],
+    "SourceBoundaryProof":  "source-boundaries.json",
+    "ProtectedCurrentReleaseFilesChecked":  19,
+    "ProtectedCurrentReleaseFileChanges":  0,
+    "ValidationReport":  "validation-report.json",
+    "CompileLinkAndAbiProbePassed":  true,
+    "KernelProjectsCompiled":  1,
+    "Errors":  0,
+    "Warnings":  0,
+    "DriverInstallationOrLoadingPerformed":  false,
+    "SigningPerformed":  false,
+    "LiveRuntimeHardwareExpiryOrRebootQualificationPerformed":  false,
+    "BinaryOrSensitiveFilesInSourceFolder":  0,
+    "FullActivationImplementationFindings":  0,
+    "SourceTerms":  "See LICENSE.txt and retained upstream/source notices; licence mapping is maintained separately.",
+    "LicenseMappingOwnedSeparately":  [
+                                          "LICENSE.txt",
+                                          "LICENSE-MAP.txt",
+                                          "THIRD-PARTY-LICENSES/"
+                                      ],
+    "MainReadmeChange":  "Added separate demo-only source-preview section; current release instructions retained."
+}

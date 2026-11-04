@@ -32,6 +32,29 @@ Microsoft signing covers the driver packages; the user-mode EXEs are separate.
 The supported scope and executed qualification are documented in
 [validation](docs/VALIDATION.md).
 
+<!-- demo-only-source-preview:start -->
+## Separate demo-only source preview
+
+[driver/README.md](driver/README.md) describes a new demo-only source preview,
+including its matching client SDK under [driver/SDK/](driver/SDK/). It uses
+separate Demo driver/runtime identities, retains the one-hour per-product boot
+budget, and contains no full-activation implementation.
+
+This preview differs from the current signed release described here. The
+existing top-level SDK, applications, installers and signed packages continue
+to target the original combined demo/full runtime. Existing installers cannot
+install the new preview, and existing signed SYS/CAT files cannot be reused for
+it. The preview has compile/link and ABI-rejection checks only; new signing and
+runtime qualification remain separate work.
+
+The existing top-level application, SDK, examples and installer remain
+[MIT licensed](LICENSE). Newly published Titan-owned preview source uses the
+[evaluation-source terms](driver/LICENSE.txt). Previously MIT-licensed SDK
+portions and other upstream material retain their existing grants; see the
+[file-by-file licence map](driver/LICENSE-MAP.txt).
+
+<!-- demo-only-source-preview:end -->
+
 ## Install and connect
 
 1. Extract the [complete release ZIP](https://github.com/titanfyre/Remote-Workstation-SDK/releases). `RemoteWorkstation.exe --preview` shows the
@@ -176,7 +199,7 @@ Outputs are in `obj/Build/bin/Release`. Tests use synthetic frame data and owned
 loopback TLS sessions; they never capture the development desktop or inject its
 inputs. See [validation](docs/VALIDATION.md) for the precise executed scope.
 
-Public application/SDK/example/installer source is [MIT licensed](LICENSE).
+Existing top-level application/SDK/example/installer source is [MIT licensed](LICENSE).
 The private runtime binary has separate evaluation/commercial terms. Deploy only
 on systems you own or administer with authorization, obtain consent for remote
 view/control, and protect pairing codes and keys. No unlawful use is endorsed.

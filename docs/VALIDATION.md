@@ -1,5 +1,10 @@
 # Validation and boundaries
 
+This document describes the current signed demo/full implementation and its
+release qualification. The separate [demo-only source preview](../driver/README.md)
+uses new identities and has compile/link plus ABI-rejection checks only.
+The runtime and hardware results below do not qualify that new preview.
+
 Remote Workstation SDK 0.1.1 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64. It uses public Windows
 capture/input/cryptography APIs plus a shared private entitlement runtime.
 
@@ -101,5 +106,7 @@ The kernel runtime owns the supplied product's demo/full state. Public Windows
 APIs and independent user-mode reimplementations remain usable outside it. A
 public-source user-mode implementation is not unbreakable licensing enforcement.
 
-Private kernel source, CABs, PDBs, lab probes, signing credentials and customer
-keys are excluded from public repositories and downloads.
+Kernel source for the current signed/full-activation runtime remains excluded.
+The separate [demo-only source preview](../driver/README.md) is included in
+`driver/`. CABs, PDBs, private lab probes, signing credentials and customer keys
+remain excluded from public repositories and downloads.
