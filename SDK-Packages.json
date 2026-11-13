@@ -203,7 +203,7 @@
       "api_prefix": "remote_workstation_sdk_json_"
     },
     "JavaScript/npm": {
-      "status": "awaiting_browser_publication_authentication",
+      "status": "registry_publication_requires_action",
       "name": "remote-workstation-sdk",
       "version": "1.0.0",
       "directory": "Remote-Workstation-SDK-JavaScript-npm",
