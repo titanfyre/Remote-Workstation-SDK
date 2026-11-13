@@ -68,6 +68,14 @@
       "distribution": "Documented native SDK; registry receipt tracked independently"
     },
     {
+      "directory": "Remote-Workstation-SDK-JavaScript-npm",
+      "language": "JavaScript",
+      "registry": "npm",
+      "name": "remote-workstation-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
       "directory": "Remote-Workstation-SDK-NET-nuget",
       "language": "NET",
       "registry": "nuget",
