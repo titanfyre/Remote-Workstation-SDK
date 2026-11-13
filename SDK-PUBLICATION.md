@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `remote-workstation-sdk` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install remote-workstation-sdk:x64-windows` |
-| `remote-workstation-sdk` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=remote-workstation-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `TitanCSA.RemoteWorkstation.Native` | NuGet | Publie et verifie | `Install-Package TitanCSA.RemoteWorkstation.Native -Version 0.1.1` |
-| `RemoteWorkstationSDK.SDK` | NuGet | Publie et verifie | `dotnet add package RemoteWorkstationSDK.SDK --version 1.0.0` |
-| `remote_workstation_sdk` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install remote-workstation-sdk==1.0.0` |
-| `remote-workstation-sdk` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge remote-workstation-sdk` |
-| `remote_workstation_sdk` | crates.io | Publie et verifie | `cargo add remote-workstation-sdk@1.0.0` |
-| `remote_workstation_sdk` | npm | Pas encore disponible / validation en cours | Commande prevue apres publication : `npm install remote-workstation-sdk@1.0.0` |
-| `io.github.titancsa:remote-workstation-sdk` | Maven Central | Publie et verifie | `io.github.titancsa:remote-workstation-sdk:1.0.0 (pom.xml / Gradle)` |
-| `com.github.titanfyre:Remote-Workstation-SDK` | JitPack | Publie et verifie | `com.github.titanfyre:Remote-Workstation-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules` | Go Modules | Publie et verifie | `go get github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules@v1.0.0` |
-| `github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules@v1.0.0` |
-| `remote_workstation_sdk` | PowerShell Gallery | Publie et verifie | `Install-Module RemoteWorkstationSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `remote_workstation_sdk` | pub.dev | Pas encore disponible / validation en cours | Commande prevue apres publication : `dart pub add remote_workstation_sdk:1.0.0` |
-| `remote_workstation_sdk` | RubyGems | Publie et verifie | `gem install remote-workstation-sdk -v 1.0.0` |
-| `remote_workstation_sdk` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/remote-workstation-sdk:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `remote-workstation-sdk` | `vcpkg install remote-workstation-sdk:x64-windows` |
+| Conan | `remote-workstation-sdk` | `conan install --requires=remote-workstation-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `TitanCSA.RemoteWorkstation.Native` | `Install-Package TitanCSA.RemoteWorkstation.Native -Version 0.1.1` |
+| NuGet | `RemoteWorkstationSDK.SDK` | `dotnet add package RemoteWorkstationSDK.SDK --version 1.0.0` |
+| PyPI | `remote_workstation_sdk` | Commande prevue apres publication : `python -m pip install remote-workstation-sdk==1.0.0` |
+| Conda | `remote-workstation-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge remote-workstation-sdk` (canal TitanCSA) |
+| crates.io | `remote_workstation_sdk` | `cargo add remote-workstation-sdk@1.0.0` |
+| npm | `remote_workstation_sdk` | Commande prevue apres publication : `npm install remote-workstation-sdk@1.0.0` |
+| Maven Central | `io.github.titancsa:remote-workstation-sdk` | `io.github.titancsa:remote-workstation-sdk:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.titanfyre:Remote-Workstation-SDK` | `com.github.titanfyre:Remote-Workstation-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules` | `go get github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules@v1.0.0` |
+| PowerShell Gallery | `remote_workstation_sdk` | `Install-Module RemoteWorkstationSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `remote_workstation_sdk` | Commande prevue apres publication : `dart pub add remote_workstation_sdk:1.0.0` |
+| RubyGems | `remote_workstation_sdk` | `gem install remote-workstation-sdk -v 1.0.0` |
+| Packagist | `remote_workstation_sdk` | Commande prevue apres publication : `composer require titancsa/remote-workstation-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 
