@@ -1,8 +1,6 @@
 # Remote-Workstation-SDK .NET8 SDK
 
-Package ID `RemoteWorkstationSDK.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `RemoteWorkstationSDK.SDK`. ```csharp
 using var client=new TitanCSA.Products.RemoteWorkstationSDK.Client();
 string statusJson=client.Call("host_status", "{}");
 ```
