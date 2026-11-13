@@ -1,0 +1,18 @@
+[build-system]
+requires=["setuptools>=77","wheel>=0.43"]
+build-backend="setuptools.build_meta"
+[project]
+name="remote-workstation-sdk"
+version="1.0.0"
+description="Windows x64 Remote-Workstation-SDK direct SDK"
+requires-python=">=3.10"
+license="MIT"
+readme="README.md"
+[project.urls]
+Repository="https://github.com/titanfyre/Remote-Workstation-SDK"
+[tool.setuptools]
+packages=["remote_workstation_sdk"]
+[tool.setuptools.package-data]
+remote_workstation_sdk=["*.dll"]
+[tool.setuptools.data-files]
+"share/remote-workstation-sdk/docs"=["docs/*","LICENSE"]

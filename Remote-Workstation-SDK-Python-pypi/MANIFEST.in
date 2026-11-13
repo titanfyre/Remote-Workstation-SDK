@@ -1,0 +1,3 @@
+include README.md LICENSE
+recursive-include remote_workstation_sdk *.py *.dll
+recursive-include docs *

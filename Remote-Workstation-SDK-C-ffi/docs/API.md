@@ -1,0 +1,14 @@
+# Remote-Workstation-SDK operation schema
+
+The unchanged product C++ SDK is called directly. Operations: `check`, `encode_frame`, `decode_frame`, `verification`, `host_start`, `host_stop`, `host_status`, `pairing_code`, `viewer_connect`, `viewer_stop`, `receive`. The dispatch source in `Bridge.cpp` lists exact argument keys and maps every operation to the original public SDK. Protocol structs retain their public-header field names, including case. UInt64 and Int64 fields are decimal strings; fixed arrays accept at most their capacity and omitted fields initialize to zero. Unknown fields and out-of-range values are rejected. SDK validators apply original protocol constraints.
+
+Wire types and fields:
+
+- `TS_PRODUCT`: product, reserved
+- `TS_CHALLENGE`: magic, version, product, permission, nonce
+- `TS_TOKEN`: grant, signature
+- `TS_STATUS`: version, product, mode, reserved, remaining_100ns, elapsed_100ns
+
+Only explicit start/connect/policy calls start the corresponding operation. The C ABI session constructor is inert; one active session per product DLL. Always close. Capture receives are bounded when the native API accepts a timeout. SDK original licensing/trial checks remain unchanged. No driver is installed by packages.
+
+Tests exercise synthetic wire inputs using the real production SDK validation/formatting helpers, rejected arguments, exact unsigned values and inert session lifecycle. No live capture, policy application, storage fault, traffic modification or driver activation is performed by these tests. Operational driver paths require a separate integration environment.
