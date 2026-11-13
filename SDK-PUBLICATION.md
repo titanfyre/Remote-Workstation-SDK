@@ -6,7 +6,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | remote-workstation-sdk |
 | CPP/conan | published_custom_source_index | [remote-workstation-sdk](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | paused_pending_owner_email_confirmation | Remote-Workstation-SDK.Native |
+| CPP/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | Remote-Workstation-SDK.Native |
 | NET/nuget | built_verified_requires_trusted_publishing_policy | RemoteWorkstationSDK.SDK [Source](Remote-Workstation-SDK-NET-nuget/) |
 | Python/pypi | built_fixture_and_production_verified | remote-workstation-sdk [Source](Remote-Workstation-SDK-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [remote-workstation-sdk](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
