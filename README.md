@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Build a viewer that shows the screen of an authorized Windows computer on your local network.
 
-**Start here.** Follow the setup guide for the host and viewer on two computers you control.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Follow the setup guide for the host and viewer on two computers you control.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -208,32 +212,11 @@ view/control, and protect pairing codes and keys. No unlawful use is endorsed.
 Software is provided without warranty, subject to licenses and mandatory law.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Remote-Workstation-SDK). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `remote-workstation-sdk` | `vcpkg install remote-workstation-sdk:x64-windows` |
-| Conan | `remote-workstation-sdk` | `conan install --requires=remote-workstation-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `TitanCSA.RemoteWorkstation.Native` | `Install-Package TitanCSA.RemoteWorkstation.Native -Version 0.1.1` |
-| NuGet | `RemoteWorkstationSDK.SDK` | `dotnet add package RemoteWorkstationSDK.SDK --version 1.0.0` |
-| PyPI | `remote-workstation-sdk` | Commande prevue apres publication : `python -m pip install remote-workstation-sdk==1.0.0` |
-| Conda | `remote-workstation-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge remote-workstation-sdk` (canal TitanCSA) |
-| crates.io | `remote-workstation-sdk` | `cargo add remote-workstation-sdk@1.0.0` |
-| npm | `remote-workstation-sdk` | Commande prevue apres publication : `npm install remote-workstation-sdk@1.0.0` |
-| Maven Central | `io.github.titancsa:remote-workstation-sdk` | `io.github.titancsa:remote-workstation-sdk:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.titanfyre:Remote-Workstation-SDK` | `com.github.titanfyre:Remote-Workstation-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules` | `go get github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Remote-Workstation-SDK/Remote-Workstation-SDK-Go-modules@v1.0.0` |
-| PowerShell Gallery | `RemoteWorkstationSDK` | `Install-Module RemoteWorkstationSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `remote_workstation_sdk` | Commande prevue apres publication : `dart pub add remote_workstation_sdk:1.0.0` |
-| RubyGems | `remote-workstation-sdk` | `gem install remote-workstation-sdk -v 1.0.0` |
-| Packagist | `titancsa/remote-workstation-sdk` | `composer require titancsa/remote-workstation-sdk:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Remote-Workstation-SDK/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/Remote-Workstation-SDK#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
